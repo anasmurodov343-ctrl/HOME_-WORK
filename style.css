@@ -244,7 +244,7 @@ body {
   line-height: 1.5;
 }
 @media (max-width: 500px) {
-    .fifa30 {
+  .fifa30 {
     font-size: 24px;
   }
   .fifa31 {
@@ -391,4 +391,32 @@ body {
   .fifa51,.fifa52 {
     display: none;
   }
+}
+.fifa53 {
+    background-color: #f0f4f7;
+    padding: 40px 0;
+}
+.fifa54 {
+    width: 80%;
+    margin: auto;
+}
+.fifa55 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.fifa56 img {
+    width: 250px;
+    margin: 5px;
+    box-shadow: 0 5px 10px #ddd;
+}
+@media (max-width: 500px) {
+    .fifa54 {
+        width: 90%;
+    }
+    .fifa56 img {
+        width: 45%;
+        height: 150px;
+        margin: 5px;
+    }
 }
