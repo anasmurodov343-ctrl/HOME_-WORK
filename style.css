@@ -106,3 +106,93 @@ body {
     padding: 12px 0;
   }
 }
+.fifa16 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+.fifa17 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #14264a;
+  margin-bottom: 24px;
+}
+.fifa18 {
+  display: flex;
+  gap: 24px;
+}
+.fifa19,.fifa20 {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 36px 30px;
+  color: #fff;
+}
+.fifa19 {
+  background: #3dbb6a;
+}
+.fifa20 {
+  background: #2ecae0;
+}
+.fifa21 {
+  position: relative;
+  z-index: 2;
+  max-width: 55%;
+}
+.fifa22 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.fifa23 {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.fifa24 {
+  font-size: 11px;
+}
+.fifa25 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.fifa26 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: #2f9e55;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 10px 28px;
+  border-radius: 20px;
+}
+.fifa27 {
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+.fifa28 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 48%;
+  display: block;
+}
+@media (max-width: 500px) {
+    .fifa18 {
+    flex-direction: column;
+  }
+  .fifa19,.fifa20 {
+    padding: 24px 18px 0;
+  }
+  .fifa21 {
+    max-width: 100%;
+  }
+  .fifa28 {
+    position: static;
+    width: 80%;
+    margin: 10px 0 0 auto;
+  }
+}
