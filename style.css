@@ -520,3 +520,63 @@ body {
     display: none;
   }
 }
+.fifa70 {
+  background: #2ba35a;
+  padding: 30px 16px;
+  color: #fff;
+}
+.fifa71 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+}
+.fifa72 {
+  width: 200px;
+}
+.fifa73 {
+  width: 90px;
+  display: block;
+  margin-bottom: 14px;
+}
+.fifa74 {
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+.fifa75 {
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.fifa76 {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+}
+.fifa77 {
+  flex: 1;
+}
+.fifa78 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.fifa79 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+@media(max-width: 500px){
+    .fifa71 {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .fifa72 {
+    width: 100%;
+  }
+
+  .fifa76 {
+    flex-wrap: wrap;
+    gap: 30px 20px;
+  }
+}
